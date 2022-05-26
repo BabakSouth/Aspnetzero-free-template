@@ -1,9 +1,9 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "defaultProject": "MyProjectName",
+  "defaultProject": "Vodabucks",
   "newProjectRoot": "projects",
   "projects": {
-    "MyProjectName": {
+    "Vodabucks": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -98,21 +98,21 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "MyProjectName:build"
+            "browserTarget": "Vodabucks:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "MyProjectName:build:production"
+              "browserTarget": "Vodabucks:build:production"
             },
             "hmr": {
-              "browserTarget": "MyProjectName:build:hmr"
+              "browserTarget": "Vodabucks:build:hmr"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "MyProjectName:build"
+            "browserTarget": "Vodabucks:build"
           }
         },
         "test": {
@@ -168,7 +168,7 @@
         }
       }
     },
-    "MyProjectName-e2e": {
+    "Vodabucks-e2e": {
       "root": "",
       "sourceRoot": "",
       "projectType": "application",
@@ -177,7 +177,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "./protractor.conf.js",
-            "devServerTarget": "MyProjectName:serve"
+            "devServerTarget": "Vodabucks:serve"
           }
         },
         "lint": {
