@@ -23,7 +23,18 @@ Please if needs adjustment connection string for "Migrator project" then execute
 5- set default as your .Host project
 
 
-6- run it.
+6- run it. it is going to be run inside your default browser like https://localhost:44311/swagger/index.html
+
+7- open a browser or new Tab
+
+8- type: Local:4200
+
+9- you should set the current tenant to "Default"
+
+10- Username: admin 
+11-password : 123qwe
+
+12- Login please
 
 
 
