@@ -1,0 +1,31 @@
+Initial Setup Instruction:
+
+Please rename your project according to your desired project name by rename.ps1 . You must edit this file and set up your new project name and new company name in it. Otherwise you will get default names.
+
+
+
+UI running:
+1-Open CMD
+2-cd C:\Users\bghaffari\Documents\GitHub\YourProject\angular
+3-Type "Yarn"
+4-Type "npm start"
+
+Backend Running:
+
+1- open sln project 
+2- set default as .Migrator project 
+
+3-First it needs to execute Entityframework for creating first version of the corresponding database:
+Please if needs adjustment connection string for "Migrator project" then execute it for creating the database. Basically , It does need if sqlexpress is already setup in your local machine.
+
+4- run the Migrator project till it is finished that the database will have been added in you SQL Express management.
+
+5- set default as your .Host project
+
+
+6- run it.
+
+
+
+
+
