@@ -6,7 +6,7 @@ Please rename your project according to your desired project name by rename.ps1 
 
 UI running:
 1-Open CMD
-2-cd C:\Users\bghaffari\Documents\GitHub\YourProject\angular
+2-cd C:\Users\<YOUR User Name>\Documents\GitHub\YourProject\angular
 3-Type "Yarn"
 4-Type "npm start"
 
